@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'webinar_app',
+    'review_app',
 ]
 
 MIDDLEWARE = [
@@ -147,4 +148,7 @@ EMAIL_HOST_USER = 'sreelekshmisgit@gmail.com'
 EMAIL_HOST_PASSWORD = 'unoo wczb pdwt zton'
 
 DEFAULT_FROM_EMAIL = 'sreelekshmisgit@gmail.com'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
 
